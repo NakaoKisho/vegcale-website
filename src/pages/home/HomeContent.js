@@ -4,19 +4,19 @@ import "./Home.css";
 
 const homeContent = [
   {
-    content: <a style={{height: '100%', width: '100%'}} href="https://vegcale.com/home/"><img src="https://vegcale.com/home/wp-content/uploads/2022/10/cropped-macha-scaled-2.webp" alt="" className="img-fit" /></a>,
+    content: <a style={{height: '100%', width: '100%'}} href="https://vegcale.com/home/"><img src="https://vegcale.com/home/wp-content/uploads/2022/10/cropped-macha-scaled-2.webp" alt="link to my blog top page" className="img-fit" /></a>,
     featured: true,
     title: "ブログ(Kotlin, Android, GAS etc.)",
     subtitle: "https://vegcale.com/home/"
   },
   {
-    content: <a style={{height: '100%', width: '100%'}} href="/portfolio"><img src="https://github.com/NakaoKisho/clean-architecture/blob/master/images/architecture_app_Nexus5.gif?raw=true" alt="link to Android app(Kotlin) portfolio" className="img-fit" /></a>,
+    content: <a style={{height: '100%', width: '100%'}} href="/portfolio"><img src="https://github.com/NakaoKisho/clean-architecture/blob/master/images/architecture_app_Nexus5.gif?raw=true" alt="link to Android earthquake map app(Kotlin) portfolio" className="img-fit" /></a>,
     featured: false,
     title: "地震マップ(開発中, Kotlin, Jetpack Compose)",
     subtitle: "githubに公開"
   },
   {
-    content: <a style={{height: '100%', width: '100%'}} href="/portfolio"><img src="https://github.com/NakaoKisho/clean-architecture/blob/master/images/architecture_app_Nexus5.gif?raw=true" alt="" className="img-fit" /></a>,
+    content: <a style={{height: '100%', width: '100%'}} href="/portfolio"><img src="https://firebasestorage.googleapis.com/v0/b/vegcale-app.appspot.com/o/article%2Fvase1.webp?alt=media&token=fc8e054d-d79d-41b1-bae5-0f3652fb2bd8" alt="link to Android vegcale app(Java) portfolio" className="img-fit" /></a>,
     featured: false,
     title: "Vegcale(Java)",
     subtitle: "githubとストアに公開"
