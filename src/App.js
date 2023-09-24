@@ -31,7 +31,7 @@ function App() {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Header title="文系エンジニア" sections={sections} />}>
+          <Route path="/" element={<Header sections={sections} />}>
             <Route index element={<Home homeContent={HomeContent} />} />
             <Route path="portfolio" element={<Portfolio portfolioContent={PortfolioContent} />} />
             <Route path="blog" element={<Blog blogContent={BlogContent}/>} />
