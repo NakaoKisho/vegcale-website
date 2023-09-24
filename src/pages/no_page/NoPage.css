@@ -1,0 +1,55 @@
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(5deg);
+  }
+
+  30% {
+    transform: rotate(10deg);
+  }
+
+  40% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  70% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes forward {
+  from {
+    transform: translateX(100);
+  }
+
+  to {
+    transform: translateX(-200px);
+  }
+}
+
+.airship-animation {
+  animation-name: swing, forward;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
