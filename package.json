@@ -1,5 +1,6 @@
 {
   "name": "vegcale-website",
+  "homepage": "https://vegcale.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
