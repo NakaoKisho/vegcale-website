@@ -63,7 +63,7 @@ const homeContent = [
     title: "Github"
   },
   {
-    content: <a style={{height: '100%', width: '100%'}} href="https://www.google.com/?hl=ja"><img src={TwitterIcon} alt="link to my X(twitter) account" className="img-fit-for-svg" /></a>,
+    content: <a style={{height: '100%', width: '100%'}} href="https://twitter.com/OCL89894812"><img src={TwitterIcon} alt="link to my X(twitter) account" className="img-fit-for-svg" /></a>,
     featured: false,
     title: "X (Twitter)"
   },
